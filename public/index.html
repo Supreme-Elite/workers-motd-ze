@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ZE Commands</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js" integrity="sha384-DBjhmceckmzwrnMMrjI7BvG2FmRuxQVaTfFYHgfnrdfqMhxKt445b7j3KBQLolRl" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+	<a id="general"> </a>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #080406">
+  <a class="navbar-brand"><font color=white><b>ZE Commands</b></font></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+	<a class="nav-item nav-link" href="#globals">GLOBALS</a>
+	<a class="nav-item nav-link" href="#weap">WEAPONS</a>
+	<a class="nav-item nav-link" href="#others">OTHERS</a>
+	<a class="nav-item nav-link" href="#vip">VIPS</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<ul class="list-group list-group-flush">
+<li class="list-group-item list-group-item-danger"><b>Globals Commands</b></li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/admins -</b></font> Listing online admins.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/calladmin -</b></font> Report a player when admins are offline.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/cm -</b></font> Check who you have self-muted.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/fullupdate -</b></font> Refresh your client.</li>
+    <!-- <li class="list-group-item list-group-item-info"><font color=#353535><b>/hide_lennies -</b></font> Hide lennies in the chat.</li> -->
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/hide -</b></font> Toggle hide teammates on/off or choose a value between def. range 30-300, 0=disable.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/hm -</b></font> Show the hitmarker menu.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/hud -</b></font> Show EntWtach HUD.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/hs &#60;player&#62; -</b></font> Hide a player's spray.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/music -</b></font> Toggle music map.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/nominate -</b></font> Nominate a map.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/nomlist -</b></font> Show the current nominated map.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/noshake -</b></font> Toggle the NoShake screen plugin.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/revote -</b></font> Make you revote during a vote.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/rtv -</b></font> RockTheVote.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/sm &#60;player&#62;-</b></font> SelfMute a player.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/spec -</b></font> Go in spectator team.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/su &#60;player&#62;-</b></font> SelfUnmute a player.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/th -</b></font> Hide a player's tracers.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/tp -</b></font> Show you the third person view.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/us &#60;player&#62;-</b></font> Unhide a player's spray.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/stopsound -</b></font> Toggle weapons sound.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/zammo -</b></font> 5sec unlimited ammo - Cost : 3500$.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/zclass -</b></font> Show the classes menu.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/zmenu -</b></font> Show the ZombieReloaded menu.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/zmarket -</b></font> Show the market menu.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/zspawn -</b></font> Spawn yourself when you're dead.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/ztele -</b></font> Teleport yourself at the last spawn.</li>
+	<li class="list-group-item list-group-item-info" id="weap"><font color=#353535><b>sm_toggletag -</b></font> Disable your tag.</li>
+
+	<li class="list-group-item list-group-item-danger"><b>Weapons Commands</b></li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/ak -</b></font> Buy an AK - Cost : $4000</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/aug -</b></font> Buy an AUG - Cost : $4000</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/awp -</b></font> Buy an AWP - Cost : $5000</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/deagle -</b></font> Buy a Deagle - Cost : $650</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/elite -</b></font>Buy Dual Beretla - Cost : $800</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/famas -</b></font> Buy a Famas - Cost : $4250</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/fiveseven -</b></font> Buy a FiveSeven - Cost : $750</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/galil -</b></font> Buy a Galil - Cost : $4000</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/glock -</b></font> Buy a Glock - Cost : $400</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/g3sg1 -</b></font> Buy a G3SG - Cost : $5000</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/he -</b></font> Buy a Grenade - Cost : $5000</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/mac10 -</b></font> Buy a MAC10 - Cost : $2400</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/mp5 -</b></font> Buy a MP5 - Cost : $3500</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/m3 -</b></font> Buy a M3 - Cost : $3700</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/m4 -</b></font> Buy a M4 - Cost : $4000</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/m249 -</b></font> Buy a M249 - Cost : $5750</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/p228 -</b></font> Buy a P228 - Cost : $600</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/p90 -</b></font> Buy a P90 - Cost : $4350</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/scout -</b></font> Buy a Scout - Cost : $2750</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/sg550 -</b></font> Buy a SG550 - Cost : $4200</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/sg552 -</b></font> Buy a SG552 - Cost : $4500</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/tmp -</b></font> Buy a TMP - Cost : $3250</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/ump -</b></font> Buy an UMP45 - Cost : $3700</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/usp -</b></font> Buy an USP - Cost : $500</li>
+	<li class="list-group-item list-group-item-info" id="others"><font color=#353535><b>/xm -</b></font> Buy a XM1014 - Cost : $4000</li>
+
+<li class="list-group-item list-group-item-danger"><b>Other Commands</b></li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/bhopstatus -</b></font> Check your bhopstatus.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/currentleader - </b></font> Check who is the current leader.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/failnade -</b></font> Check if failnades are enable on the current map.</li>
+    <!-- <li class="list-group-item list-group-item-info"><font color=#353535><b>/friends -</b></font> Check which one of your steam friends are online.</li> -->
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/leader -</b></font> Become a Leader <i>(Need to be white-listed first)</i></li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/leaders -</b></font> Check who is availabe as Leader.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/marknsfw -</b></font> Mark your spray nsfw.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/marksfw -</b></font> Mark your spray sfw.</li>
+	<!-- <li class="list-group-item list-group-item-info"><font color=#353535><b>/mytime -</b></font> Check your last racing time.</li> -->
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/nosteam -</b></font> Check who use a steam client or a nosteam client.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/nsfw -</b></font> Toggle nsfw sprays.</li>
+	<!--<li class="list-group-item list-group-item-info"><font color=#353535><b>/togglecrown -</b></font></li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/toggleimmunity</b></font></li><!-->
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/testvip -</b></font> Test our vip perks during a limited time.</li>
+	<!-- <li class="list-group-item list-group-item-info"><font color=#353535><b>/pumpkins -</b></font> Seasonal command, that shows how much pumpkins you have collected so far and how much you need for the next Milestone.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/presents -</b></font> Seasonal command, that shows how much presents you have collected so far and how much you need for the next Milestone.</li>
+	<li class="list-group-item list-group-item-info" id="vip"><font color=#353535><b>/highscore -</b></font> Seasonal command, that shows the top collectors.</li> -->
+
+
+
+<li class="list-group-item list-group-item-danger"><b>VIPS Commands</b></li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/chatcolor -</b></font> Change your text color in the chat.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/color -</b></font> Change the color of your model.</li>
+    <!-- <li class="list-group-item list-group-item-info"><font color=#353535><b>/joinmsg &#60;message&#62; -</b></font> Change your joining message.</li> -->
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/namecolor -</b></font> Change your name color in the chat.</li>
+	<!-- <li class="list-group-item list-group-item-info"><font color=#353535><b>/resetjoinmsg -</b></font> Reset your joining message.</li>
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/showzones -</b></font> Show the zone you need to reach to get your race timer.</li> -->
+	<li class="list-group-item list-group-item-info"><font color=#353535><b>/tag -</b></font> Display the tag menu.</li>
+    <li class="list-group-item list-group-item-info"><font color=#353535><b>/tagcolor -</b></font> Change your tag color in the chat.</li>
+
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+name = "motd-ze"
+type = "webpack"
+account_id = "96c19822db3e6f0601f617c90b86c908"
+workers_dev = false
+route = "supreme-elite.fr/commands-ze"
+zone_id = "c70f3f5be1bfd0d1b12afabd9e9a6da5"
+
+[site]
+bucket = "./public"
